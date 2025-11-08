@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site FidWork - Boujemaa Elhor Fiduciaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0056b3;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #007bff;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #e9ecef;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #007bff;
+        }
+        .testimonial {
+            background-color: #fff;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+        }
+        input, textarea {
+            margin: 10px 0;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .philosophie {
+            background-color: #e7f3ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site FidWork</h1>
+        <p>Notre Philosophie : Baisse Prix Haute Qualité</p>
+        <p>Services fiduciaires professionnels à Marrakech</p>
+    </header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#philosophie">Philosophie</a>
+        <a href="#apropos">À Propos</a>
+        <a href="#services">Services</a>
+        <a href="#temoignages">Témoignages</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="accueil">
+        <h2>Bienvenue sur Site FidWork</h2>
+        <p>Chez Boujemaa Elhor Fiduciaire, nous sommes votre partenaire de confiance pour tous vos besoins financiers et juridiques. Que vous soyez un particulier, une PME ou une entreprise en pleine croissance, nous offrons des solutions sur mesure adaptées à vos besoins. Notre approche combine expertise, transparence et accessibilité pour vous aider à atteindre vos objectifs.</p>
+        <p>Avec des années d'expérience dans le domaine fiduciaire, nous nous engageons à fournir des services de haute qualité à des prix compétitifs. Découvrez comment nous pouvons vous accompagner dans votre réussite.</p>
+    </section>
+    
+    <section id="philosophie">
+        <h2>Notre Philosophie</h2>
+        <div class="philosophie">
+            <h3>Baisse Prix Haute Qualité</h3>
+            <p>Notre philosophie repose sur un principe simple mais essentiel : offrir des services de fiduciaire exceptionnels sans compromettre sur la qualité, tout en maintenant des tarifs abordables. Nous croyons que l'excellence ne devrait pas être réservée aux seuls budgets élevés. C'est pourquoi nous optimisons nos processus pour réduire les coûts sans sacrifier l'attention personnalisée que vous méritez.</p>
+            <p>Chez Site FidWork, la qualité est notre priorité. Chaque client est traité avec respect et professionnalisme, et nous nous engageons à des résultats concrets : transparence totale, conseils fiables et solutions efficaces. Que ce soit pour la comptabilité, la fiscalité ou la création d'entreprises, nous garantissons un service de haut niveau à des prix justes.</p>
+        </div>
+    </section>
+    
+    <section id="apropos">
+        <h2>À Propos de Nous</h2>
+        <p>Je suis Boujemaa Elhor, fiduciaire certifié et expert en gestion financière basé à Marrakech. Avec plus de 15 ans d'expérience dans le secteur, j'ai aidé des centaines de clients à naviguer dans les complexités de la comptabilité, de la fiscalité et du droit des affaires. Mon parcours m'a permis de développer une expertise pointue dans les réglementations marocaines et internationales.</p>
+        <p>Site FidWork est né de ma passion pour l'accompagnement des entrepreneurs et des particuliers. Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins uniques et proposer des stratégies adaptées. Notre équipe (moi-même et des collaborateurs qualifiés) est dédiée à votre succès.</p>
+        <p><strong>Adresse :</strong> Centre Imane, Bureau 4, Avenue Hassan II, Hay Hassani, Marrakech</p>
+        <p><strong>Horaires :</strong> Lundi au Vendredi, 9h00 - 18h00 (sur rendez-vous).</p>
+    </section>
+    
+    <section id="services">
+        <h2>Nos Services</h2>
+        <p>Nous proposons une gamme complète de services fiduciaires pour répondre à tous vos besoins. Voici un aperçu détaillé :</p>
+        <ul>
+            <li><strong>Comptabilité :</strong> Gestion intégrale de vos comptes, établissement de bilans, suivi des transactions et rapports financiers précis. Nous assurons une comptabilité rigoureuse pour une visibilité claire sur votre situation économique.</li>
+            <li><strong>Gestion Financière :</strong> Analyse et optimisation de vos finances personnelles ou d'entreprise. Cela inclut la budgétisation, la planification d'investissements et des conseils pour maximiser vos ressources.</li>
+            <li><strong>Fiscalité :</strong> Préparation et soumission de vos déclarations fiscales, optimisation fiscale légale et conseils pour réduire vos impôts. Nous restons à jour avec les dernières réglementations marocaines.</li>
+            <li><strong>Création d’Entreprises :</strong> Accompagnement complet dans la création de votre société, de la rédaction des statuts à l'enregistrement officiel. Nous gérons toutes les démarches administratives pour un lancement sans stress.</li>
+            <li><strong>Gestion de Salaires :</strong> Calcul automatique des salaires, gestion des cotisations sociales et préparation des bulletins de paie. Idéal pour les entreprises de toutes tailles.</li>
+            <li><strong>Conseil Juridique :</strong> Assistance juridique pour contrats, litiges et conformité réglementaire. Nous collaborons avec des avocats partenaires pour des conseils spécialisés.</li>
+        </ul>
+        <p>Contactez-nous pour une consultation gratuite et découvrez comment nous pouvons personnaliser nos services pour vous.</p>
+    </section>
+    
+    <section id="temoignages">
+        <h2>Témoignages de Nos Clients</h2>
+        <div class="testimonial">
+            <p>"Boujemaa a transformé notre comptabilité ! Grâce à ses conseils, nous avons économisé des milliers de dirhams en impôts. Service impeccable et prix abordables." - Ahmed, Entrepreneur à Marrakech</p>
+        </div>
+        <div class="testimonial">
+            <p>"La création de mon entreprise s'est faite sans accroc grâce à Site FidWork. Tout était clair, rapide et à un coût raisonnable. Je recommande vivement !" - Fatima, Nouvelle Entrepreneure</p>
+        </div>
+        <div class="testimonial">
+            <p>"Excellente gestion financière et fiscale. Boujemaa est un professionnel de confiance, toujours disponible et précis." - Karim, Commerçant</p>
+        </div>
+    </section>
+    
+    <section id="faq">
+        <h2>Questions Fréquemment Posées (FAQ)</h2>
+        <h3>Quels sont vos tarifs ?</h3>
+        <p>Nos prix sont transparents et adaptés à votre budget. Nous proposons des forfaits abordables pour chaque service, avec une consultation initiale gratuite pour évaluer vos besoins.</p>
+        <h3>Travaillez-vous uniquement à Marrakech ?</h3>
+        <p>Bien que basé à Marrakech, nous servons des clients dans tout le Maroc via des consultations en ligne ou sur site.</p>
+        <h3>Comment prendre rendez-vous ?</h3>
+        <p>Contactez-nous par téléphone, email ou via le formulaire ci-dessous. Nous répondons sous 24 heures.</p>
+        <h3>Êtes-vous certifié ?</h3>
+        <p>Oui, je suis un fiduciaire agréé avec des certifications en comptabilité et fiscalité.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contactez-Nous</h2>
+        <p>Prêt à commencer ? Remplissez le formulaire ci-dessous ou appelez-nous directement.</p>
+        <form>
+            <input type="text" placeholder="Votre Nom" required>
+            <input type="email" placeholder="Votre Email" required>
+            <input type="tel" placeholder="Votre Téléphone">
+            <textarea placeholder="Votre Message" rows="6" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <p><strong>Téléphone :</strong> 0524348645</p>
+        <p><strong>Email :</strong> elhorb@yahoo.fr / boujemel74@gmail.com</p>
+        <p><strong>Adresse :</strong> Centre Imane, Bureau 4, Avenue Hassan II, Hay Hassani, Marrakech</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Site FidWork - Boujemaa Elhor Fiduciaire. Tous droits réservés. | Site conçu pour des services de qualité à prix abordables.</p>
+    </footer>
+</body>
+</html>
